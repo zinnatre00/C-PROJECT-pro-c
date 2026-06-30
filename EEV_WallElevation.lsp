@@ -60,7 +60,7 @@
       (exit)
     )
   )
-  (princ (strcat "\n기준 각도: " (rtos (angtos ang-ref 4 4) 2 4) "도"))
+  (princ (strcat "\n기준 각도: " (angtos ang-ref 4 4) "도"))
 
   ;; ── 3단계: 같은 각도 선분의 총 길이 합산 ─────────────────
   (setq wall-length (eev-sum-length-by-angle ss-walls ang-ref))
